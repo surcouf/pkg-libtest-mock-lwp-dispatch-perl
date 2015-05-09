@@ -1,0 +1,5 @@
+libtest-mock-lwp-dispatch-perl (0.06-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Raphaël 'SurcouF' Bordet <surcouf@debianfr.net>  Sat, 9 May 2015 23:10:02 +0200

@@ -1,0 +1,2 @@
+version=3
+https://metacpan.org/release/Test-Mock-LWP-Dispatch   .*/Test-Mock-LWP-Dispatch-v?(\d[\d.-]*)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$

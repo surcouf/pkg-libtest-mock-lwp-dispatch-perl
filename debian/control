@@ -1,0 +1,37 @@
+Source: libtest-mock-lwp-dispatch-perl
+Section: perl
+Priority: optional
+Maintainer: Raphaël 'SurcouF' Bordet <surcouf@debianfr.net>
+Build-Depends: debhelper (>= 9.20120312)
+Build-Depends-Indep: libhttp-message-perl,
+ libtest-exception-perl,
+ libtest-mockobject-perl,
+ libwww-perl,
+ perl
+Standards-Version: 3.9.5
+Homepage: https://metacpan.org/release/Test-Mock-LWP-Dispatch
+
+Package: libtest-mock-lwp-dispatch-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+ libhttp-message-perl,
+ libtest-mockobject-perl,
+ libwww-perl
+Description: mocks LWP::UserAgent and dispatches your requests/responses
+ Test::Mock::LWP::Dispatch intends for testing a code that heavily uses
+ LWP::UserAgent.
+ .
+ Assume that function you want to test makes three different request to the
+ server and expects to get some content from the server. To test this function
+ you should setup request/response mappings for mocked UserAgent and test it.
+ .
+ For doing something with mappings, here are methods map, unmap and unmap_all.
+ For controlling context of these mappings (is it applies for all created in
+ your code LWP::UserAgent's or only to one specific?) you should call these
+ functions for exported $mock_ua object (global mapping) or for newly created
+ LWP::UserAgent (local mappings).
+ .
+ See also on Test::Mock::LWP, it provides mocked LWP objects for you, so
+ probably you can solve your problems with this module too.
+ .
+ This description was automagically extracted from the module by dh-make-perl.
