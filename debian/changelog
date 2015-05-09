@@ -1,3 +1,9 @@
+libtest-mock-lwp-dispatch-perl (0.06-1ubuntu1) trusty; urgency=medium
+
+  * Backported to Ubuntu trusty. 
+
+ -- Raphaël 'SurcouF' Bordet <surcouf@debianfr.net>  Sat, 09 May 2015 23:12:33 +0200
+
 libtest-mock-lwp-dispatch-perl (0.06-1) unstable; urgency=low
 
   * Initial Release.
